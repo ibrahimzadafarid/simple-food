@@ -1,21 +1,24 @@
-$primary-color: #31352B;
+$primary-color: #31352b;
 $secondary-color: #ff6838;
+$primary-color-opacity: rgba(49, 53, 43, 0.5);
+$secondary-color-opacity: rgba(255, 104, 56, 0.7);
+$bg-animation: #fff2ed;
 $title-color: #363853;
+$bg: #f9faff;
 $silver-200: #ececec;
-$gray:#c2c2c2;
-$silver-100: #f9faff;
+$gray: #c2c2c2;
 
 %rubik-300 {
-  font-family: 'Rubik-Italic', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 300;
 }
 
 %rubik-400 {
-  font-family: 'Rubik-Regular', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
 }
 
 %rubik-500 {
-  font-family: 'Rubik-Medium', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }

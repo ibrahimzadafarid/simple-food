@@ -13,17 +13,17 @@
 
 html,
 body {
-  min-height: 100vh;
+  height: 100%;
 }
 
 body {
   @extend %rubik-400;
+  display: flex;
+  flex-direction: column;
+  background-color: $bg;
   font-size: 20px;
   line-height: 1.5;
   color: $primary-color;
-  background-color: #f9faff;
-  display: flex;
-  flex-direction: column;
 }
 
 .main {
@@ -33,9 +33,8 @@ body {
 .container {
   max-width: 1230px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
-
 
 .footer {
   margin-top: auto;
